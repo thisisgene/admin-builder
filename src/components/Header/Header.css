@@ -2,6 +2,7 @@
 
 nav {
   position: fixed;
+  top: 0;
   width: 100vw;
   height: 40px;
   box-sizing: border-box;

@@ -2,28 +2,27 @@ import React, { Component } from 'react';
 import arrow from '../../img/drop_arrow.svg';
 import './Header.css';
 import config from '../../adminConfig.json'
-import fakeServerData from '../../fakeServerData.json'
 
 class Header extends Component {
   
   render() {
+    
     return (
       <div className="nav">
         <nav>
-          <div className="logo">BRAND</div>
+          <div className="logo">{config.brand[0].name}</div>
           <div className="main-nav">
-            {config.menu_items.map((item, index) => {
+            {config.menuItems.map((item, index) => {
               return (
                 <div className="link-item" key={index}>
                   <a>{item.title}</a>
                 </div>
               )
             })}
-          
           </div>
           <div className="user-nav">
             <div className="user-name">
-              <span>{fakeServerData.user[0].name}</span>
+              <span>{this.props.user.name}</span>
               <img src={arrow} alt="dropdown arrow"/>
               <div className="user-dropdown">
                 <ul>
@@ -37,7 +36,6 @@ class Header extends Component {
                 </ul>
               </div>
             </div>
-            
           </div>
         </nav>
       </div>

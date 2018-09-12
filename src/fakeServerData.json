@@ -1,6 +1,30 @@
 {
   "user": [
   {
-    "name": "Gigi Lagusti"
-  }
-]}
+    "name": "Gigi Lagusti",
+    "projects": [
+      {
+        "name"        : "Project 1",
+        "description" : "Ein neues Projekt am Hafen",
+        "isDeleted"   : false,
+        "isVisible"   : true
+      },
+      {
+        "name"        : "Project 2",
+        "description" : "Ein altes Projekt in der Stadt",
+        "isDeleted"   : false,
+        "isVisible"   : true
+      },
+      {
+        "name"        : "Project 3",
+        "description" : "Ein tolles Projekt mit großer Zukunft",
+        "isDeleted"   : false,
+        "isVisible"   : true
+      }
+  
+    ]
+  }]
+
+  
+
+}

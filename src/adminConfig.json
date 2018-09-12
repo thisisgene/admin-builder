@@ -1,11 +1,24 @@
 {
-  "menu_items": [
-  {
-    "title" : "Projects",
-    "url"   : "/projects"
-  },
-  {
-    "title" : "News",
-    "url"   : "/news"
-  }
-]}
+  
+  "brand": [
+    {
+      "name": "New Brand"
+    }
+  ],
+  "menuItems": [
+    {
+      "title" : "Projects",
+      "url"   : "/projects"
+    },
+    {
+      "title" : "News",
+      "url"   : "/news"
+    }
+  ],
+  "projectData": [
+    {
+      "listTitle"    : "Projektliste",
+      "submitTitle"  : "Senden"
+    }
+  ]
+}
