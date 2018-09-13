@@ -8,11 +8,11 @@
   "menuItems": [
     {
       "title" : "Projects",
-      "url"   : "/projects"
+      "url"   : "projects"
     },
     {
       "title" : "News",
-      "url"   : "/news"
+      "url"   : "news"
     }
   ],
   "projectData": [

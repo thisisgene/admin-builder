@@ -22,9 +22,29 @@
         "isVisible"   : true
       }
   
+    ],
+    "news": [
+      {
+        "name"        : "News 1",
+        "description" : "Ein neues Projekt am Hafen",
+        "isDeleted"   : false,
+        "isVisible"   : true
+      },
+      {
+        "name"        : "News 2",
+        "description" : "Ein altes Projekt in der Stadt",
+        "isDeleted"   : false,
+        "isVisible"   : true
+      },
+      {
+        "name"        : "News 3",
+        "description" : "Ein tolles Projekt mit großer Zukunft",
+        "isDeleted"   : false,
+        "isVisible"   : true
+      }
+  
     ]
   }]
 
-  
 
 }
